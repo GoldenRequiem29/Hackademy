@@ -1,49 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" type="text/css" href="estilos.css">
-  <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
-  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet"> 
-  <title>Frontend Mentor | Intro component with sign up form</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">  
+ 
+  <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+ 
 </head>
+<body style="background-color:hsl(257, 40%, 49%);" >
 
+  <div class="container-fluid" >
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <img class="logo" src="images/logo.svg">
+      </div>
+    </div>
+  </div>
 
-<body style="background-color: rgb(255, 103, 103);">
-  <section class="content">
-   <div class="row">
-       <div class="col-sm-12 col-lg-6";>
-         <div>
-          <h1 class="titulo">Learn to code by<br> watching others</h1>
-          </div>
-          <div class="parrafo">
-            See how experienced developers solve problems in real-time.<br> Watching scripted tutorials is great, 
-            but understanding how<br> developers think is invaluable.
-         </div>
-       </div>
+  <div class="container-fluid" >
+    <div class="row">
+      <div class="col-md-7 col-sm-12">
+        <img src="images/illustration-mockups.svg" class="img-fluid" id="imagen">
+      </div>
 
+      <div class="col-md-5 col-sm-12" id="texto">
+        <h1>Build The Community Your Fans Will Love</h1><br>
+        <h6> Huddle re-imagines the way we build communities. You have <br> a voice, but so does your audience. 
+          Create connections with <br> your users as you engage in genuine discussion.</h6><br>
 
-       <div class="col-sm-12 col-lg-6">
-        <h6 id="t">Try it free 7 days then $20/mo. thereafter</h6>
-          <form id="action="  style="width:398px">
-           <input type="text" name="nombre" placeholder="First Name"/><br><br>
-           <input type="text" name="apellido" placeholder="Last Name"/><br><br>
-           <input type="text" name="apellido" placeholder="Last Name"/><br><br>
-           <input type="email" name="correo" placeholder="Email Address"/><br><br>
-           <input type="password" name="contraseña" placeholder="Password"/><br><br>
-           <button type="submit" class="submit">Claim your free trial</button><br><br>
-           <div id="tf"> By clicking the button, you are agreeing to our <span id="f">Terms and Services</span></div>
-          </form>
-       </div>
-   </div>
-   </section>
-   </div>
- </div>
-</div>
-
+          <button id="boton">Register</button>
+      </div>
+    </div>
+  </div>
 
   <footer>
     <p class="attribution">

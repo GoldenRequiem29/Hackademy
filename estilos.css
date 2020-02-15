@@ -1,71 +1,41 @@
 body{
-    background-image: url(images/bg-intro-desktop.png);
+    background-color:hsl(257, 47%, 49%); 
+    background-size: auto;
+    background-image: url(images/bg-desktop.svg)
 }
 
-.titulo{
-    margin-top: 30%;
-    margin-left: 25%;
-    font-size: 40px;
-    font-family: 'Poppins', sans-serif;
-    font-style: bold;
+.logo{
+    padding-top: 30px; 
+    padding-left: 5%;
+    padding-bottom: 30px; 
+}
+
+#imagen{
+    padding-left: 10%; 
+    padding-right: 0;
+}
+
+h1{
     color: rgb(255, 255, 255);
 }
 
-.parrafo{
-    margin-top: 3%;
-    color: hsl(0, 0%, 99%);
-    margin-left: 25%;
-    text-align: left;
-    font-size: 13px;
-    font-family: 'Poppins', sans-serif;
+h6{
+    color: rgb(247, 227, 255);
 }
 
-#t{
-    color: rgb(255, 255, 255);
-    text-align: center;
-    width: 398px;
-    padding: 0.7rem;
-    background-color: rgb(134, 44, 252);
-    margin-top: 13%;
-    margin-right: 15%;
-    border-radius: 5px;
+#texto{
+    padding-right: 70px; 
+    padding-top: 50px;
 }
 
-form{
-    background-color: rgb(255, 255, 255);
-    padding: 20px;
-    margin-top: 2%;
-    margin-right: 10%;
-    border-radius: 5px;
+#boton{
+    color: rgb(167, 96, 233);
+    border-radius: 5em;
+    padding: 10px 20px 10px 20px;
+    width: 200px;
 }
 
-
-input{
-    width: 350px;
-    padding: 0.5rem;
-    font-size: 1rem;
-    border: 1px solid hsla(268, 15%, 51%, 0.87);
-    border-radius: 5px;
-}
-
-button{
-    margin-left: -40px;
-    background-color: rgb(23, 247, 116);
-    padding: 0.7rem;
-    width: 350px;
-    border-radius: 5px;
-    position: relative;
-    border: none;
-    color: rgb(255, 255, 255);
-
-}
-
-#tf{
-    color: rgb(184, 184, 184);
-    font-size: 10px;
-    text-align: center;
-}
-
-#f{
-    color: lightcoral;
+p{
+    
+    margin-left: 7%;
 }
